@@ -1,0 +1,3 @@
+langchain-community>=0.3.25
+langchain-openai>=0.3.24
+faiss-cpu>=1.11.0
