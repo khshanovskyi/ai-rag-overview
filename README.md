@@ -34,7 +34,7 @@ By completing this task, you will learn:
    ├── microwave_manual.txt         # ✅ Knowledge base document
    └── app.py                       # 🚧 TODO - Your main implementation
    ```
-## Application diagram:
+## 🖌️ Application diagram:
 
 <img src="application-diagram.png">
 
