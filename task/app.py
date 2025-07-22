@@ -143,14 +143,15 @@ main(
         # TODO:
         #  1. pass embeddings:
         #       - AzureOpenAIEmbeddings
-        #       - deployment='text-embedding-3-large-1' (or 'text-embedding-3-small-1')
+        #       - deployment='text-embedding-3-small-1'
         #       - azure_endpoint=DIAL_URL
         #       - api_key=SecretStr(API_KEY)
         #  2. pass llm_client:
         #       - AzureChatOpenAI
         #       - temperature=0.0
+        #       - azure_deployment='gpt-4o',
         #       - azure_endpoint=DIAL_URL
         #       - api_key=SecretStr(API_KEY)
-        #       - api_version="2024-05-01-preview"
+        #       - api_version=""
     )
 )
