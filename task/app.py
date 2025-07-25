@@ -121,7 +121,8 @@ class MicrowaveRAG:
         #       - SystemMessage(content=SYSTEM_PROMPT)
         #       - HumanMessage(content=augmented_prompt)
         #  2. Call self.llm_client.invoke(messages) and assign result to `response` variable
-        #  3. Return response content
+        #  3. print(f"{response.content}\n{'=' * 100}")
+        #  4. Return response content
         return None
 
 
