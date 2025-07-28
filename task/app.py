@@ -63,17 +63,16 @@ class MicrowaveRAG:
         #       - encoding is `utf-8`
         #       - assign it to `loader` variable
         #  2. Load documents via `loader.load()` and assign to `documents` variable
-        #  3. Load `documents` via `loader.load()`
-        #  4. Create RecursiveCharacterTextSplitter with
+        #  3. Create RecursiveCharacterTextSplitter with
         #       - chunk_size=300
         #       - chunk_overlap=50
         #       - separators=["\n\n", "\n", "."]
-        #  5. Split `documents` via created `text_splitter` into `chunks`
-        #  6. Create `vectorstore` via FAISS.from_documents:
+        #  4. Split `documents` via created `text_splitter` into `chunks`
+        #  5. Create `vectorstore` via FAISS.from_documents:
         #       - documents=chunks
         #       - embeddings=self.embeddings
-        #  7. Save indexed data locally `vectorstore.save_local("microwave_faiss_index")`
-        #  8. Return created `vectorstore`
+        #  6. Save indexed data locally `vectorstore.save_local("microwave_faiss_index")`
+        #  7. Return created `vectorstore`
         return None
 
     def retrieve_context(self, query: str, k: int = 4, score=0.3) -> str:
