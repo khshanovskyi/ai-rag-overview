@@ -90,7 +90,7 @@ class MicrowaveRAG:
 
         # TODO:
         #  Make `similarity_search_with_relevance_scores` in `vectorstore`:
-        #       - query is `microwave_manual.txt`
+        #       - query=query
         #       - k=k
         #       - score_threshold=score
         #       - assign results to `relevant_docs` variable
