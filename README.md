@@ -40,6 +40,8 @@ By completing this task, you will learn:
 
 ## 📝 Your Task
 
+### If the task in the main branch is hard for you, then switch to the with-detailed-description branch
+
 Complete the implementation in `app.py` by filling in all the TODO sections:
 
 ### 🔍 **Step 1: Vector Store Setup (`_setup_vectorstore` method)**
